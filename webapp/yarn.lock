@@ -9057,6 +9057,7 @@ __metadata:
     form-data: ^4.0.0
     formik: ^2.2.9
     http-proxy-middleware: ^2.0.0
+    lodash: ^4.17.21
     net: ^1.0.2
     nightwind: ^1.1.12
     patch-package: ^6.4.7

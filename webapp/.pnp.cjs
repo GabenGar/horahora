@@ -53,6 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["form-data", "npm:4.0.0"],\
             ["formik", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:2.2.9"],\
             ["http-proxy-middleware", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:2.0.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["net", "npm:1.0.2"],\
             ["nightwind", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:1.1.12"],\
             ["patch-package", "npm:6.4.7"],\
@@ -12967,6 +12968,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["form-data", "npm:4.0.0"],\
             ["formik", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:2.2.9"],\
             ["http-proxy-middleware", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:2.0.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["net", "npm:1.0.2"],\
             ["nightwind", "virtual:ff081a94a271a36fbd74b89d052b70f804198643bcd138a1ac70efe144f9f186be76317f10e624d655fe7093eff9b920b545c7f58b84fd4d9676c87cd38b8cb6#npm:1.1.12"],\
             ["patch-package", "npm:6.4.7"],\

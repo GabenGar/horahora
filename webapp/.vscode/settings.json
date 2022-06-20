@@ -13,7 +13,8 @@
   },
   "search.exclude": {
     "**/.yarn": true,
-    "**/.pnp.*": true
+    "**/.pnp.*": true,
+    "**/build": true
   },
   "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
