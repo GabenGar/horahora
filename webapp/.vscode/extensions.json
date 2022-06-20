@@ -1,5 +1,10 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint"
-    ]
+  "recommendations": [
+    // Recommended by ESLint
+    // https://eslint.org/docs/user-guide/integrations#editors
+    "dbaeumer.vscode-eslint",
+    // Recommended by yarn
+    // https://yarnpkg.com/getting-started/migration#editor-support
+    "arcanis.vscode-zipfs"
+  ]
 }
