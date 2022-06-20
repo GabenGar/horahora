@@ -8,7 +8,7 @@ WORKDIR /webapp
 # https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy
 COPY ["package.json", "yarn.lock", "/webapp"]
 
-RUN yarn install
+RUN yarn install --immutable
 
 COPY . .
 
