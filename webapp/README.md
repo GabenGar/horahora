@@ -68,3 +68,6 @@ Validate [Zero Install](https://yarnpkg.com/features/zero-installs#does-it-have-
 ```sh
 yarn install --check-cache
 ```
+
+## VSCode
+Install all recommended extensions.

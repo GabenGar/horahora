@@ -5,6 +5,9 @@
     "dbaeumer.vscode-eslint",
     // Recommended by yarn
     // https://yarnpkg.com/getting-started/migration#editor-support
-    "arcanis.vscode-zipfs"
+    "arcanis.vscode-zipfs",
+    // Recommended by Prettier
+    // https://prettier.io/docs/en/editors.html#visual-studio-code
+    "esbenp.prettier-vscode"
   ]
 }
