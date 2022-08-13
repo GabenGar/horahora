@@ -43,7 +43,14 @@ func (j *JWTGRPCAuthenticator) GRPCAuth(next echo.HandlerFunc) echo.HandlerFunc 
 			return c.String(http.StatusForbidden, "")
 		}
 
-		jwt := c.Cookies()[0].Value
+		var jwt string
+		for _, cookie := range c.Cookies() {
+			if cookie.Name == "jwt" {
+				jwt = cookie.Value
+			}
+		}
+
+		log.Errorf("%v", jwt)
 
 		jwtDecoded, err := base64.StdEncoding.DecodeString(jwt)
 		if err != nil {
