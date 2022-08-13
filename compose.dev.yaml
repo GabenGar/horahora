@@ -203,6 +203,9 @@ services:
       - ./static:/etc/nginx/html/static/images
       - ./nginx/dev.conf:/etc/nginx/templates/default.conf.template
       - ./videos/otomads:/etc/nginx/html/otomads
+      - ./certs/horahora.crt:/etc/ssl/certs/horahora.crt
+      - ./certs/horahora.key:/etc/ssl/certs/horahora.key
+
 
   rabbitmq:
     build:

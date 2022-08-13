@@ -15,9 +15,10 @@ export async function apiFetch<ResBody = never>({
   pathname,
   searchParams,
   baseErrorMessage = "Failed to fetch",
-  options,
+  options={},
 }: IAPIFetchArgs): Promise<ResBody> {
   const url = new PublicAPIURL(pathname, searchParams);
+  options['credentials'] = "include";
   const response = await fetch(url, options);
 
   if (!response.ok) {

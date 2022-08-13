@@ -13,7 +13,7 @@ type ICookieKey = typeof cookieKeys[keyof typeof cookieKeys];
 const defaultOptions: CookieAttributes = {
   expires: 365,
   secure: true,
-  sameSite: "strict",
+  sameSite: "None",
 };
 
 /**

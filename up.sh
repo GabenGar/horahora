@@ -26,6 +26,8 @@ then
   echo '"' >> .env
 fi
 
+mkdir certs && openssl req -x509 -newkey rsa:4096 -nodes -out ./certs/horahora.crt -keyout ./certs/horahora.key -days 365 -subj "/C=FR/O=krkr/OU=Domain Control Validated/CN=localhost"
+
 # docker compose by default reads `.env` file
 # so no need to pass it as an option
 docker-compose build --progress=plain && \
